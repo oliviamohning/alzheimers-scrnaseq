@@ -1,12 +1,29 @@
-# Alzheimer's Data
+# Alzheimer's scRNA-seq Analysis
 
-This project BLAH BLAH BLAH:
+This repository contains a bioinformatics project analyzing single-cell RNA sequencing (scRNA-seq) data from the entorhinal cortex of Alzheimer's disease (AD) patients. The goal is to process and explore transcriptional changes across individual cells and patient samples, using standard single-cell workflows in R (Seurat).
 
-- BLAH BLAH
-- BLAH
+## Objectives
 
-CHANGE THIS AS NEEDED -> Tools used: Python (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`), SQL, and Jupyter Notebooks for data cleaning, exploration, and visualization.
+- Load and explore scRNA-seq gene expression and metadata
+- Perform quality control, normalization, and dimensionality reduction
+- Identify cell types and marker genes
+- Compare expression profiles across patient groups
+- Visualize results using UMAP, heatmaps, and other techniques
 
-CHANGE THIS -> Forecasting and modeling (e.g., `Prophet`, `statsmodels`) coming soon.
+## Data
 
-Dataset: 311_noise_complaints_sample_small.csv (included)
+- Dataset: GSE138852 (processed counts and covariates)
+- Platform: Illumina NextSeq 500
+- Tissue: Human entorhinal cortex from aged individuals with AD
+
+Raw data was excluded from version control due to file size limits. Metadata and scripts are included for reproducibility.
+
+## Tools and Packages
+
+- R / RStudio
+- [Seurat](https://satijalab.org/seurat/)
+- tidyverse (dplyr, ggplot2, etc.)
+- Future additions: DESeq2, clusterProfiler, etc.
+
+## Project Structure
+
