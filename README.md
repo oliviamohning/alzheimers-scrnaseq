@@ -27,12 +27,14 @@ Raw data was excluded from version control due to file size limits. Metadata and
 
 ## Project Structure
 
+```
 scrnaseq/
-├── data/             - Processed datasets (counts, covariates, saved Seurat objects)
-├── scripts/          - R scripts for loading, processing, and visualizing data
-├── results/          - Outputs and intermediate files (excluded from Git)
-├── figures/          - Generated plots (excluded from Git)
-└── README.md         - Project overview
+├── data/       # Processed datasets (counts, covariates, saved Seurat objects)
+├── scripts/    # R scripts for loading, processing, and visualizing data
+├── results/    # Outputs and intermediate files (excluded from Git)
+├── figures/    # Generated plots (excluded from Git)
+└── README.md   # Project overview
+```
 
 ## Status
 
