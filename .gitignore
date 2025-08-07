@@ -1,0 +1,13 @@
+# Large raw data files
+data/GSE138852/GSE138852_counts.csv
+data/GSE138852/alz_seurat.rds
+
+# Other
+*.Rproj
+.Rhistory
+.RData
+.Ruserdata
+data/GSE138852/GSE138852_counts.csv
+*.rds
+.DS_Store
+.ipynb_checkpoints/
