@@ -1,14 +1,12 @@
-# NYC Noise Complaint Analysis
+# Alzheimer's Data
 
-This project analyzes NYC 311 noise complaint data to identify spatial and temporal patterns. The goal is to help answer questions like:
+This project BLAH BLAH BLAH:
 
-- When do most noise complaints occur?
-- Which boroughs report the most noise?
-- Are there seasonal or time-based trends?
-- Can we forecast complaint volume over time? By season? By location?
+- BLAH BLAH
+- BLAH
 
-Tools used: Python (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`), SQL, and Jupyter Notebooks for data cleaning, exploration, and visualization.
+CHANGE THIS AS NEEDED -> Tools used: Python (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`), SQL, and Jupyter Notebooks for data cleaning, exploration, and visualization.
 
-Forecasting and modeling (e.g., `Prophet`, `statsmodels`) coming soon.
+CHANGE THIS -> Forecasting and modeling (e.g., `Prophet`, `statsmodels`) coming soon.
 
 Dataset: 311_noise_complaints_sample_small.csv (included)
