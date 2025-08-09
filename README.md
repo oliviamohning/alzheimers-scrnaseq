@@ -1,6 +1,6 @@
 # Alzheimer's scRNA-seq Analysis
 
-This repository contains a bioinformatics project analyzing single-cell RNA sequencing (scRNA-seq) data from the entorhinal cortex of Alzheimer's disease (AD) patients. The goal is to process and explore transcriptional changes across individual cells and patient samples, using standard single-cell workflows in R (Seurat).
+This repository contains a bioinformatics project analyzing single-cell RNA sequencing (scRNA-seq) data from the entorhinal cortex of Alzheimer's disease (AD) patients. The goal is to process and explore transcriptional changes across individual cells and patient samples, using standard single-cell workflows in Python.
 
 ## Objectives
 
@@ -20,17 +20,30 @@ Raw data was excluded from version control due to file size limits. Metadata and
 
 ## Tools and Packages
 
-- R / RStudio
-- Seurat
-- tidyverse (dplyr, ggplot2, etc.)
-- Future additions: DESeq2, clusterProfiler, etc.
+- Python
+- pandas, numpy, matplotlib, seaborn
+- scanpy, anndata, celltypist
+- Future additions: scvi-tools, statsmodels, lifelines, clusterProfiler (via Python wrappers)
+
+## Skills Demonstrated
+
+This project showcases:
+
+- **Programming:** Python (pandas, numpy, scanpy, anndata, matplotlib, seaborn) and Bash scripting for data preprocessing
+- **Data Science:** Data cleaning, wrangling, and exploratory data analysis on high-dimensional biological data
+- **Bioinformatics:** Single-cell RNA-seq preprocessing, QC, normalization, clustering, and marker gene identification
+- **NGS Tools & Formats:** Familiarity with common genomics file formats (FASTQ, BAM, VCF, H5AD) and tools such as samtools bcftools, bedtools
+- **Statistics & Machine Learning:** Dimensionality reduction (PCA, UMAP), clustering (Leiden), differential expression analysis
+- **Reproducibility & Workflow Management:** Version control with Git/GitHub, clear directory structure, reproducible Python scripts and Jupyter notebooks
 
 ## Project Structure
 
 ```
+
 scrnaseq/
-├── data/       # Processed datasets (counts, covariates, saved Seurat objects)
-├── scripts/    # R scripts for loading, processing, and visualizing data
+├── data/       # Raw and processed datasets (counts, covariates, AnnData files)
+├── scripts/    # Python scripts for loading, processing, and visualizing data
+├── notebooks/  # Jupyter notebooks for interactive analysis
 ├── results/    # Outputs and intermediate files (excluded from Git)
 ├── figures/    # Generated plots (excluded from Git)
 └── README.md   # Project overview
@@ -38,4 +51,4 @@ scrnaseq/
 
 ## Status
 
-Initial data loading and object creation complete. Analysis scripts in development.
+Initial data loading in Python complete. QC and analysis notebooks in development.
