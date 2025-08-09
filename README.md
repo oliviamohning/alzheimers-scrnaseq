@@ -20,8 +20,6 @@ Raw data was excluded from version control due to file size limits. Metadata and
 
 ## Tools and Packages
 
-## Tools and Packages
-
 - **Programming languages**: Python, Bash
 - **Python libraries for data science**: pandas, numpy, matplotlib, seaborn
 - **Single-cell and genomics analysis**: scanpy, anndata, celltypist, scvi-tools
