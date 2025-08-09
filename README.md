@@ -20,10 +20,18 @@ Raw data was excluded from version control due to file size limits. Metadata and
 
 ## Tools and Packages
 
-- Python
-- pandas, numpy, matplotlib, seaborn
-- scanpy, anndata, celltypist
-- Future additions: scvi-tools, statsmodels, lifelines, clusterProfiler (via Python wrappers)
+## Tools and Packages
+
+- **Programming languages**: Python, Bash
+- **Python libraries for data science**: pandas, numpy, matplotlib, seaborn
+- **Single-cell and genomics analysis**: scanpy, anndata, celltypist, scvi-tools
+- **Statistical modeling**: statsmodels, lifelines
+- **Bioinformatics tools**: samtools, bcftools, bedtools, bwa, BLAST (used outside Python)
+- **File formats handled**: FASTQ, BAM, VCF, BED, BigWig, H5AD, CSV/TSV
+- **Databases**: PostgreSQL, SQL for metadata storage and queries
+- **Version control**: Git, GitHub
+- **Workflow management**: Snakemake (planned)
+- **Visualization**: matplotlib, seaborn, scanpy plotting utilities
 
 ## Skills Demonstrated
 
