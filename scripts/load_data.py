@@ -54,7 +54,4 @@ adata.obs.index.name = "cell"
 # Save AnnData object
 h5ad_path = proc_dir / "alz_scanpy_raw.h5ad"
 adata.write(h5ad_path, compression="gzip")
-
 print(f"Saved AnnData to: {h5ad_path}")
-print(adata)
-print(adata.obs.head())
