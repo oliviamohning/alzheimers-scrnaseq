@@ -11,13 +11,20 @@ __pycache__/
 *.pyo
 
 # Data and large outputs (kept out of Git)
-data/GSE138852/GSE138852_counts.csv
-data/raw/
-data/ref/
-data/processed/
-reports/
-figures/
-results/
+data/raw/**
+data/ref/**
+data/processed/**
+reports/**
+figures/**
+results/**
+
+# Allow empty directories with a placeholder
+!data/raw/.gitkeep
+!data/ref/.gitkeep
+!data/processed/.gitkeep
+!reports/.gitkeep
+!figures/.gitkeep
+!results/.gitkeep
 
 # Common bioinformatics binaries
 *.h5ad
