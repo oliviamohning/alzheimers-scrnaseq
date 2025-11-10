@@ -23,3 +23,21 @@ Raw data was excluded from version control due to file size limits. Metadata and
 - **Visualization:** seaborn, matplotlib  
 
 ## Project Structure
+scrnaseq/
+├── config/ # Configuration files for workflows and analysis
+├── data/ # Project data directory
+│ ├── raw/ # Raw input datasets (e.g., FASTQ, REDCap exports)
+│ ├── ref/ # Reference data (e.g., genome fasta, annotations)
+│ ├── processed/ # Processed datasets (e.g., CSVs, AnnData files)
+│ └── GSE138852/ # Alzheimer’s counts and covariates (from GEO)
+├── figures/ # Generated plots (included in Git)
+├── notebooks/ # Jupyter notebooks for interactive analysis
+├── reports/ # Markdown or HTML reports summarizing findings
+├── results/ # Analysis outputs and intermediate files
+├── scripts/ # Python scripts for loading, processing, and visualization
+└── README.md # Project overview
+
+
+## Status
+Initial data ingestion, cleaning, and exploratory analysis completed.  
+Visualizations and summary report available in `/reports/summary.md`.
