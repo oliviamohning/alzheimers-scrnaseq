@@ -10,6 +10,5 @@ dependencies:
   - matplotlib
   - pandas
   - python-igraph
-  - scanpy
   - seaborn
 prefix: /opt/anaconda3/envs/scrnaseq
