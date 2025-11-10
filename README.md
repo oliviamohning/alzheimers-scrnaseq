@@ -66,4 +66,3 @@ scrnaseq/
 ## Status
 
 Initial data loading in Python complete. QC and analysis notebooks in development.
-This project is the devil. I fear I am in over my head. I am putting this on hold until I finish my NYC 311 Data Analysis, which is not the devil.
