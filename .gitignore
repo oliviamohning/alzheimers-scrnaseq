@@ -1,45 +1,22 @@
-# OS / editors
+# OS / editor junk
 .DS_Store
-.vscode/
 .ipynb_checkpoints/
 __pycache__/
 
-# Environments and secrets
+# Environments
 .venv/
 .env
 *.pyc
 *.pyo
 
-# Data and large outputs (kept out of Git)
+# Data and large outputs (keep repo lightweight)
 data/raw/**
 data/ref/**
 data/processed/**
-reports/**
-figures/**
 results/**
 
-# Allow empty directories with a placeholder
+# Keep empty dirs visible
 !data/raw/.gitkeep
 !data/ref/.gitkeep
 !data/processed/.gitkeep
-!reports/.gitkeep
-!figures/.gitkeep
 !results/.gitkeep
-
-# Common bioinformatics binaries
-*.h5ad
-*.bam
-*.bai
-*.cram
-*.crai
-*.vcf
-*.vcf.gz
-*.vcf.gz.tbi
-*.bw
-*.bedGraph
-*.parquet
-*.fastq
-*.fastq.gz
-
-# Checkpoints
-.snakemake/
