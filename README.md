@@ -23,7 +23,6 @@ Raw data was excluded from version control due to file size limits. Metadata and
 - **Visualization:** seaborn, matplotlib  
 
 ## Project Structure
-## Project Structure
 
 ```
 scrnaseq/
